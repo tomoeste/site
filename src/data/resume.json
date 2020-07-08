@@ -1,0 +1,357 @@
+{
+    "$schema": "https://json.schemastore.org/resume",
+    "basics": {
+      "name": "Tom Oeste",
+      "label": "Director of Engineering at BullsEye Computing Solutions",
+      "image": "",
+      "email": "tomoeste@gmail.com",
+      "phone": "410-718-5664",
+      "url": "",
+      "summary": "Agile learner, capable of quickly producing quality work. Consistently meets and exceeds expectations in diverse work environments, ranging from software development to systems research to technical writing. Currently design and develop modern web apps on the .NET Core platform with React and TypeScript.\n\nB.S. in Materials Science and Engineering at the University of Maryland, College Park A. James Clark School.",
+      "location": {
+        "address": "Fulton, Maryland",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "US",
+        "region": ""
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "tom-oeste",
+          "url": "https://www.linkedin.com/in/tom-oeste/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "BullsEye Computing Solutions, Inc.",
+        "endDate": "",
+        "highlights": [],
+        "position": "Director of Engineering",
+        "startDate": "2012-01-31",
+        "summary": "I lead the design and development of BullsEye Mosaic™, a next-generation web app for enterprise inventory and supply chain management. Mosaic an offline-first, mobile-first Progressive Web Application (PWA) built on the ASP.NET Core platform. The Mosaic client side is powered by React and TypeScript. I have overseen marketing campaigns for the company and its products, during which time I led design and development on the corporate website, along with digital and print collateral. I regularly author and edit state and federal contract proposals.\n\n I began my work at BullsEye as an intern, maintaining EZ RF™, gaining expertise with Visual Basic and familiarity with Oracle. I later personally oversaw the implementation of a subversion source code control system, further supplemented with a test case management suite, all through the use of open source software. I was given the role of lead software developer for a federal government project, involving a Visual Basic for Applications (VBA) program in Microsoft Excel with comprehensive data analysis and reporting capabilities.\n\nI returned to BullsEye to serve as a software developer and technical writer for varied state and federal government projects. These projects have been based in product research, solution design, software development, system validation, and proposal writing. I currently serve as the Director of Engineering.",
+        "url": "https://www.linkedin.com/company/263785"
+      },
+      {
+        "name": "BullsEye Computing Solutions, Inc.",
+        "endDate": "2020-06-30",
+        "highlights": [],
+        "position": "Business Analyst",
+        "startDate": "2016-04-30",
+        "summary": "I worked with the Maryland Department of Transportation State Highway Administration (MDOT SHA) to develop functional requirements for a new Consumable Inventory System (CIS). I assisted in facilitating JAD sessions for requirements gathering and developed a variety of document templates and tools to organize and report on the functional requirements. I contributed to several procurement documents, including requests for information and requests for proposals. I performed gap analyses on potential Commercial Off The Shelf (COTS) options against our functional requirements and presented findings to executive leadership. I developed test documentation in the form of test case and test data management tools written as feature-rich Excel workbooks.",
+        "url": "https://www.linkedin.com/company/263785"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "endDate": "2014-08-31",
+        "highlights": [],
+        "position": "Guest Researcher",
+        "startDate": "2014-05-31",
+        "summary": "I returned to NIST through the Summer Undergraduate Research Fellowship to continue my work from the previous summer. I investigated several candidate materials to create a soft tissue biosimulant artifact for safety testing applications in human-robot collaborative environments. The impact testing instrument operates through a LabVIEW interface that I developed the previous summer, and I continued to work with it to characterize damage with the novel biosimulant artifact. I coauthored an academic paper, published in Industrial Robot: An International Journal, on the research that I performed during my time at NIST.",
+        "url": "https://www.linkedin.com/company/6357"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "endDate": "2013-08-31",
+        "highlights": [],
+        "position": "Guest Researcher",
+        "startDate": "2013-06-30",
+        "summary": "I was given the opportunity to work at NIST through the Summer Undergraduate Research Fellowship (SURF) program. I was placed on a project involving robot-human collaborative manufacturing, where I developed a LabVIEW application to acquire and analyze data from an impact testing machine that was designed and fabricated in-house. The application automated both the acquisition and analysis processes, generated graphical representations of the data, and estimated material parameters. I investigated and characterized the properties of skin biosimulants, using the impact instrument and LabVIEW application, to develop a safety-testing process for industrial robots working collaboratively with humans.",
+        "url": "https://www.linkedin.com/company/6357"
+      },
+      {
+        "name": "Lab for Physical Sciences",
+        "endDate": "2013-06-30",
+        "highlights": [],
+        "position": "Undergraduate Researcher",
+        "startDate": "2012-02-28",
+        "summary": "I began working with a UniJet inkjet printer, for which there was no documentation of any kind. Over several months, I authored an illustrated, interactive PDF manual for the operation of the printer hardware and the software controller that accompanied it. While documenting the printing process, I optimized parameters in the software controller, yielding the highest resolution printing observed at the lab. Finally, I made rheological measurements of carbon-nanotube-based conductive inks using a Brookfield viscometer in preparation for printing circuitry on flexible, polymer substrates.",
+        "url": ""
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "University of Maryland College Park",
+        "area": "Systems Engineering",
+        "studyType": "Graduate coursework",
+        "startDate": "2014-12-31",
+        "endDate": "2015-12-31",
+        "gpa": "",
+        "courses": [
+          "Systems Engineering Modeling and Analysis",
+          "System Life Cycle Analysis and Risk Management"
+        ]
+      },
+      {
+        "institution": "University of Maryland College Park",
+        "area": "Materials Science and Engineering",
+        "studyType": "Bachelor's Degree",
+        "startDate": "2010-12-31",
+        "endDate": "2014-12-31",
+        "gpa": "",
+        "courses": [
+          "Materials Selection in Engineering Design",
+          "Composite Materials",
+          "Mechanical Behavior of Materials",
+          "Microprocessing",
+          "Macroprocessing",
+          "Reliability of Materials",
+          "Nanomaterials",
+          "Introduction to Electronmicroscopy"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "ManTech International Corporation Master of Science in Systems Engineering Scholarship",
+        "date": "2014-09-30",
+        "awarder": "ManTech International Corporation",
+        "summary": "The ManTech International Corporation awards its Master of Science in Systems Engineering (MSSE) Scholarship to two MSSE students per year at the University of Maryland, College Park. It is a merit-based scholarship."
+      },
+      {
+        "title": "Charles D. Striffler Internship Award",
+        "date": "2013-07-31",
+        "awarder": "University of Maryland, College Park Scholars Program (Science, Technology, and Society)",
+        "summary": "The Charles D. Striffler Internship Award is a competitive scholarship available to undergraduates in the Science, Technology, and Society (STS) program within the College Park Scholars Program at the University of Maryland, College Park. Students are required to write an essay that explores how their internship combines the intellectual challenges of the College Park Scholars STS program with usefulness to community, discipline or profession.\n\nFor more information, see http://sts.umd.edu/events/index.php?mode=4&id=6165"
+      },
+      {
+        "title": "Membership in Alpha Sigma Mu",
+        "date": "2013-04-30",
+        "awarder": "Alpha Sigma Mu",
+        "summary": "Alpha Sigma Mu is the international and professional honor society for the field of materials science and engineering. Membership is by invitation to the top 25% of junior, senior, and graduate students.\n\nFor more information, see http://www.alphasigmamu.org/"
+      },
+      {
+        "title": "President's Scholarship",
+        "date": "2010-08-31",
+        "awarder": "University of Maryland, College Park",
+        "summary": "The President's Scholarship provides four-year awards to exceptional entering freshmen from Maryland and across the nation. The President's Scholarship program is the University's largest. Recipients are identified through evaluation of the admission application materials. Academic achievement, extracurricular activities, awards, honors, and an essay are the criteria reviewed."
+      }
+    ],
+    "publications": [
+      {
+        "name": "Human-robot collaboration dynamic impact testing and calibration instrument for disposable robot safety artifacts",
+        "publisher": "Industrial Robot: An International Journal",
+        "releaseDate": "2016-12-31",
+        "website": "http://www.emeraldinsight.com/doi/full/10.1108/IR-06-2015-0125",
+        "summary": "The purpose of this paper is a description of DITCI, its drop loads and sensors, the impact tools, the robot dynamic impact safety artifacts, data analysis, and modeling of test results. The dynamic impact testing and calibration instrument (DITCI) is a simple instrument with a significant data collection and analysis capability that is used for the testing and calibration of biosimulant human tissue artifacts. These artifacts may be used to measure the severity of injuries caused in the case of a robot impact with a human."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Solution Architecture",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Technical Writing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Programming",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Materials Science",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Mathematica",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Rheometry",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Proposal Writing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft Office",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Public Speaking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Analysis",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Photolithography",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Labview",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Project Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Supply Chain Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AutoCAD",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Databases",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Matlab",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Technical Leadership",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Mobile Applications",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Engineering",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Clean Rooms",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Applications",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Filemaker Pro",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Mobile Devices",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "React.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "VBA",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Oracle",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "User Interface Design",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Research",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Finite Element Analysis",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Wire Bonding",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": ".NET Core",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Visual Basic",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Project Planning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Asset Tracking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Experimentation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "TypeScript",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "language": "en",
+        "fluency": "Native Speaker"
+      }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": []
+  }
