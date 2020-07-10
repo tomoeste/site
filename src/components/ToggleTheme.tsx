@@ -1,14 +1,28 @@
 import React, { useContext } from "react";
-import ThemeContext, { themes } from "./ThemeContext";
+import ThemeContext from "./ThemeContext";
 
 const ToggleTheme = (props: any) => {
   const theme = useContext(ThemeContext);
 
   return (
-    <button
-      style={{ background: theme.background, color: theme.foreground }}
+    <div
+      style={{ 
+        width: `40px`, 
+        height: `40px`, 
+        borderRadius: `25px`, 
+        border: `none`, 
+        fontSize: `28px`, 
+        lineHeight: `14px`, 
+        display: `flex`, 
+        alignItems: `center`, 
+        justifyContent: `center`,
+        alignSelf: `flex-end`,
+        cursor: `pointer` }}
       {...props}
-  >{theme === themes.light ? `Dark` : `Light`}</button>
+  >
+    <i style={{ color: theme.foreground }}
+    className="fas fa-lightbulb"></i>
+  </div>
   );
 };
 

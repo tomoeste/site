@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
-import * as resume from './data/resume.json';
 import ThemeContext, { themes } from './components/ThemeContext';
-import ResumeContext from './components/ResumeContext';
+import resume from './data/resume.json';
+import { ResumeContext } from './components/ResumeContext';
 import Header from './components/Header';
 import ToggleTheme from './components/ToggleTheme';
+import Topnav from './components/Topnav';
+import Skills from './components/Skills';
+import Profiles from './components/Profiles';
 
 const App = () => {
   const [theme, setTheme] = React.useState(themes.dark);
@@ -20,10 +23,16 @@ const App = () => {
   return (
     <ThemeContext.Provider value={theme}>
       <ResumeContext.Provider value={resume}>
-        <div className="App">
+        <div className="App" style={{background: theme.background, color: theme.foreground}}>
           <header className="App-header">
-            <ToggleTheme onClick={toggleTheme} />
-            <Header />
+            <Topnav>
+              <ToggleTheme onClick={toggleTheme} />
+            </Topnav>    
+            <div className="App-body">         
+              <Header />
+              <Profiles />
+              <Skills />
+            </div>
           </header>
         </div>
       </ResumeContext.Provider>

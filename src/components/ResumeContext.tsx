@@ -1,6 +1,4 @@
 import React from 'react';
-import * as resume from '../data/resume.json';
+import resume from '../data/resume.json';
 
-const ResumeContext = React.createContext(resume);
-
-export default ResumeContext;
+export const ResumeContext = React.createContext(resume);
