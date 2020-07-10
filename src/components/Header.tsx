@@ -8,15 +8,15 @@ const Header = () => {
   
   return (
     <div style={{ display: `flex`, flexDirection: `column`, marginBottom: `40px`}}>
-      <div style={{ padding: `0px` }}>
-        <img src="/logo.svg" alt="Tom's avatar" height="160" />
+      <div style={{ padding: `80px 0` }}>
+        <img src="/logo.svg" alt="Tom's avatar" height="160" style={{ position: `absolute`, top: `0px`, left: `calc(50vw - 80px)`, zIndex: 1}} />
       </div>      
-      <div style={{color: theme.foreground, marginBottom: `10px` }}>
+      <h1 style={{color: theme.foreground, marginBottom: `10px` }}>
         {resume.basics?.name}
-      </div>
-      <div style={{color: theme.foreground, fontSize: `20px` }}>
+      </h1>
+      <h2 style={{color: theme.foreground }}>
         {resume.basics?.label}
-      </div>
+      </h2>
     </div>
   );
 }

@@ -22,9 +22,18 @@
   font-size: calc(10px + 2vmin);
 }
 
+h1 {
+  font-size: calc(10px + 3vmin);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: calc(10px + 2vmin);
+  font-weight: 400;
+}
+
 .App-body {
   max-width: 800px;
-  z-index: 1;
 }
 
 .App-link {
