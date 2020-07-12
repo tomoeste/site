@@ -6,7 +6,7 @@
     "email": "tomoeste@gmail.com",
     "phone": "410-718-5664",
     "url": "",
-    "summary": "Agile learner, capable of quickly producing quality work. Consistently meets and exceeds expectations in diverse work environments, ranging from software development to systems research to technical writing. Currently design and develop modern web apps on the .NET Core platform with React and TypeScript.\n\nB.S. in Materials Science and Engineering at the University of Maryland, College Park A. James Clark School.",
+    "summary": "Agile learner, capable of quickly producing quality work. Consistently meets and exceeds expectations in diverse work environments, ranging from software development to systems research to technical writing. Currently design and develop modern web apps on the .NET Core platform with React and TypeScript.",
     "location": {
       "address": "Sykesville, Maryland",
       "postalCode": "",
@@ -152,147 +152,47 @@
   ],
   "skills": [
     {
-      "name": "Solution Architecture",
+      "name": "Product design",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Technical Writing",
+      "name": "Solution architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Software Development",
+      "name": "Software development",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Programming",
+      "name": "Web + mobile apps",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Proposal Writing",
+      "name": "UI + UX",
+      "level": "",
+      "keywords": []
+    },    
+    {
+      "name": "Technical writing",
+      "level": "",
+      "keywords": []
+    },    
+    {
+      "name": "Public speaking",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Microsoft Office",
+      "name": "Project management",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Public Speaking",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Project Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Supply Chain Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Databases",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Technical Leadership",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Mobile Applications",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Applications",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Filemaker Pro",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Mobile Devices",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "VBA",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Oracle",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "User Interface Design",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": ".NET Core",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Visual Basic",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Project Planning",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Asset Tracking",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Experimentation",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TypeScript",
+      "name": "Technical leadership",
       "level": "",
       "keywords": []
     }

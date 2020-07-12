@@ -8,6 +8,8 @@ import ToggleTheme from './components/ToggleTheme';
 import Topnav from './components/Topnav';
 import Skills from './components/Skills';
 import Profiles from './components/Profiles';
+import Bio from './components/Bio';
+import Footer from './components/Footer';
 
 const App = () => {
   const [theme, setTheme] = React.useState(themes.dark);
@@ -31,8 +33,10 @@ const App = () => {
             <div className="App-body">         
               <Header />
               <Profiles />
-              <Skills />
+              <Bio />
+              <Skills />              
             </div>
+            <Footer />
           </header>
         </div>
       </ResumeContext.Provider>

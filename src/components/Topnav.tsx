@@ -7,8 +7,8 @@ const Topnav = (props: any) => {
   return (
     <div
       style={{ 
-        width: `calc(100vw - 20px)`, 
-        height: `60px`, 
+        width: `calc(100% - 20px)`, 
+        height: `50px`, 
         position: `absolute`,
         top: `0`,
         left: `0`,
