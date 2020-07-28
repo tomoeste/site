@@ -23,12 +23,12 @@
 }
 
 h1 {
-  font-size: calc(10px + 3vmin);
+  font-size: calc(14px + 3vmin);
   font-weight: 400;
 }
 
 h2 {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(14px + 2.5vmin);
   font-weight: 400;
 }
 

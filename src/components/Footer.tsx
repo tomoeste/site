@@ -7,13 +7,15 @@ const Footer = (props: any) => {
   const theme = useContext(ThemeContext);
 
   return (
-    <div
+    <footer
       style={{ 
         width: `calc(100% - 20px)`, 
         height: `50px`, 
-        padding: `0 10px`,
+        padding: `10px`,
         display: `flex`, 
         flexDirection: `row`,
+        flexWrap: `wrap`,
+        wordWrap: `normal`,
         alignItems: `center`, 
         justifyContent: `center`,
         fontSize: `14px`,
@@ -22,15 +24,15 @@ const Footer = (props: any) => {
        }}
       {...props}
   >
-    I made this site with <a href="https://create-react-app.dev/" target="_blank" rel="noopener noreferrer"
+    <span>I made this site with <a href="https://create-react-app.dev/" target="_blank" rel="noopener noreferrer"
     css={css`text-decoration: none; color: ${theme.foreground}; margin-left: 4px; font-weight: 500;`}>
       Create React App
     </a>. I made the logo with a charming tool called
     <a href="https://bigheads.io/" target="_blank" rel="noopener noreferrer"
     css={css`text-decoration: none; color: ${theme.foreground}; margin-left: 4px; font-weight: 500;`}>
       Big Heads
-    </a>.
-  </div>
+    </a>.</span>
+  </footer>
   );
 };
 

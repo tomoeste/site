@@ -1,11 +1,9 @@
 import React, { useContext, Fragment } from "react";
 import { ResumeContext } from "./ResumeContext";
 import Profile from "./Profile";
-import ThemeContext from './ThemeContext';
 
 const Profiles = () => {
   const resume = useContext(ResumeContext);
-  const theme = useContext(ThemeContext);
 
   return (
     <Fragment>

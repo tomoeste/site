@@ -9,7 +9,7 @@ const Profile = (props: any) => {
   return (
     <Fragment>
       
-      <div
+      <button
         css={css`
           display: flex;
           background-color: ${theme.backgroundAlt};
@@ -23,7 +23,8 @@ const Profile = (props: any) => {
           border-radius: 60px;
           align-content: center;
           align-items: center;
-          cursor: pointer;
+          cursor: pointer;  
+          border: none;
           &:hover {
             background-color: ${theme.backgroundAltActive};
           }
@@ -34,12 +35,13 @@ const Profile = (props: any) => {
             href: props.profile.url,
           }).click();
         }}
+        aria-label={`${props.profile.network} (opens in new tab)`}
       >
         <i
           style={{ color: theme.foreground }}
           className={`${props.profile.icon}`}
         ></i>
-      </div>
+      </button>
     </Fragment>
   );
 };

@@ -5,7 +5,7 @@ const Topnav = (props: any) => {
   const theme = useContext(ThemeContext);
 
   return (
-    <div
+    <nav
       style={{ 
         width: `calc(100% - 20px)`, 
         height: `50px`, 
@@ -24,7 +24,7 @@ const Topnav = (props: any) => {
       {...props}
   >
     {props.children}
-  </div>
+  </nav>
   );
 };
 

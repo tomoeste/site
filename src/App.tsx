@@ -26,7 +26,7 @@ const App = () => {
     <ThemeContext.Provider value={theme}>
       <ResumeContext.Provider value={resume}>
         <div className="App" style={{background: theme.background, color: theme.foreground}}>
-          <header className="App-header">
+          <div className="App-header">
             <Topnav>
               <ToggleTheme onClick={toggleTheme} />
             </Topnav>    
@@ -37,7 +37,7 @@ const App = () => {
               <Skills />              
             </div>
             <Footer />
-          </header>
+          </div>
         </div>
       </ResumeContext.Provider>
     </ThemeContext.Provider>

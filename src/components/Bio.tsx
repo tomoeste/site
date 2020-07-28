@@ -10,7 +10,7 @@ const Bio = () => {
   
   return (
     <Fragment>
-      <div
+      <h3
         style={{
           margin: `40px 0 0 0`,
           fontSize: `18px`,
@@ -18,8 +18,8 @@ const Bio = () => {
         }}
       >
         Here is more about me
-      </div>
-      <div css={css`display: flex;
+      </h3>
+      <p css={css`display: flex;
                   background-color: ${theme.background}; 
                   color: ${theme.foreground};
                   font-weight: 400;
@@ -32,7 +32,7 @@ const Bio = () => {
                   text-align: left;
                   border-radius: 10px;`}>
        {resume.basics.summary}
-    </div>
+    </p>
     </Fragment>
     
   );

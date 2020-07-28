@@ -9,13 +9,14 @@ const Header = () => {
   const resume = useContext(ResumeContext);
 
   return (
-    <div
+    <header
       style={{ display: `flex`, flexDirection: `column` }}
     >
       <div style={{ padding: `80px 0` }}>
         <img
           src="/logo.svg"
-          alt="Tom's avatar"
+          alt="A cartoon drawing of Tom."
+          title="Tom's avatar"
           height="180"
           style={{
             position: `absolute`,
@@ -25,23 +26,19 @@ const Header = () => {
           }}
         />
       </div>
-      <div style={{marginTop: `30px`, fontSize: `22px`, color: theme.foreground}}>My name is</div>
+      <div style={{marginTop: `30px`, fontSize: `calc(10px + 1.5vmin)`, color: theme.foreground}}>My name is</div>
       <h1 style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `0` }}>
         {resume.basics?.name}
       </h1>
-      <div style={{marginTop: `0px`, fontSize: `20px`, color: theme.foreground}}>I'm a</div>
-      <h2 style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `0` }}>
-          <div
-            css={css`
+      <div style={{marginTop: `0px`, fontSize: `calc(10px + 1.5vmin)`, color: theme.foreground}}>I'm a</div>
+      <h2 css={css`
               background-color: ${theme.background};
               color: ${theme.foreground};
               word-wrap: normal;
-            `}
-          >
+            `} style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `0` }}>
             {resume.basics?.label}
-          </div>
       </h2>
-    </div>
+    </header>
   );
 };
 

@@ -9,7 +9,7 @@ const Skills = () => {
 
   return (
     <Fragment>
-      <div
+      <h3
         style={{
           margin: `20px 0 20px 0`,
           fontSize: `18px`,
@@ -17,8 +17,8 @@ const Skills = () => {
         }}
       >
         I'm known for
-      </div>
-      <div
+      </h3>
+      <ul
         style={{
           display: `flex`,
           flexDirection: `row`,
@@ -30,7 +30,7 @@ const Skills = () => {
         {resume.skills.map((skill: any, index: number) => (
           <Skill skill={skill} key={`skill${index}`} />
         ))}
-      </div>
+      </ul>
     </Fragment>
   );
 };

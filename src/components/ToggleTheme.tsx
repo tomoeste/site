@@ -8,7 +8,7 @@ const ToggleTheme = (props: any) => {
   const theme = useContext(ThemeContext);
 
   return (
-    <div
+    <button
       css={css`
         width: 40px;
         height: 40px;
@@ -21,14 +21,16 @@ const ToggleTheme = (props: any) => {
         justify-content: center;
         align-self: flex-end;
         cursor: pointer;
+        background-color: transparent;
         &:hover {
           background-color: ${theme.backgroundAltActive}
         }
       `}
       {...props}
+      aria-label="Toggle theme"
     >
       <i style={{ color: theme.foreground }} className="fas fa-lightbulb"></i>
-    </div>
+    </button>
   );
 };
 

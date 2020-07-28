@@ -7,15 +7,16 @@ const Skill = (props: any) => {
   const theme = useContext(ThemeContext);
   
   return (
-    <div css={css`display: flex; 
+    <button css={css`display: flex; 
                   background-color: ${theme.backgroundAlt}; 
                   color: ${theme.foreground};
                   font-size: 14px;
                   line-height: 14px; 
                   font-weight: 600;
                   margin-right: 12px;
-                  margin-bottom: 12px;
+                  margin-bottom: 12px   ;
                   padding: 10px 14px;
+                  border: none;
                   border-radius: 8px;
                   cursor: pointer;
                   &:hover {
@@ -26,7 +27,7 @@ const Skill = (props: any) => {
                      `}>
       {props.skill.name}
       </span>
-    </div>
+    </button>
   );
 }
 
