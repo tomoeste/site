@@ -10,9 +10,18 @@ import Skills from './components/Skills';
 import Profiles from './components/Profiles';
 import Bio from './components/Bio';
 import Footer from './components/Footer';
+import Expertises from './components/Expertises';
 
 const App = () => {
-  const [theme, setTheme] = React.useState(themes.dark);
+  const getPreferredTheme = () => {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return themes.dark;
+    } else {
+      return themes.light;
+    }
+  }
+
+  const [theme, setTheme] = React.useState(getPreferredTheme());
 
   const toggleTheme = () => {
     if (theme === themes.light) {
@@ -34,7 +43,8 @@ const App = () => {
               <Header />
               <Profiles />
               <Bio />
-              <Skills />              
+              <Skills /> 
+              <Expertises />             
             </div>
             <Footer />
           </div>

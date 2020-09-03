@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Tom Oeste",
-    "label": "Product designer / software engineer",
+    "label": "Software engineer + product designer",
     "image": "",
     "email": "tomoeste@gmail.com",
     "phone": "410-718-5664",
-    "url": "",
-    "summary": "Agile learner, capable of quickly producing quality work. Consistently meets and exceeds expectations in diverse work environments, ranging from software development to systems research to technical writing. Currently design and develop modern web apps on the .NET Core platform with React and TypeScript.",
+    "url": "/logo.svg",
+    "summary": "I design and deliver quality products. As an agile learner, I thrive with new challenges and diverse teams. My products are used by household name brands and within state and federal government. Strong communication skills are vital to me, as I work remotely with teams distributed around the world. Above all, I value kindness and understanding between people, at work and home.",
     "location": {
-      "address": "Sykesville, Maryland",
-      "postalCode": "",
-      "city": "",
+      "address": "",
+      "postalCode": "21784",
+      "city": "Sykesville",
       "countryCode": "US",
-      "region": ""
+      "region": "MD"
     },
     "profiles": [
       {
@@ -82,63 +82,20 @@
       "url": ""
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland College Park",
       "area": "Systems Engineering",
       "studyType": "Graduate coursework",
       "startDate": "2014-12-31",
-      "endDate": "2015-12-31",
-      "gpa": "",
-      "courses": [
-        "Systems Engineering Modeling and Analysis",
-        "System Life Cycle Analysis and Risk Management"
-      ]
+      "endDate": "2015-12-31"
     },
     {
       "institution": "University of Maryland College Park",
       "area": "Materials Science and Engineering",
       "studyType": "Bachelor's Degree",
       "startDate": "2010-12-31",
-      "endDate": "2014-12-31",
-      "gpa": "",
-      "courses": [
-        "Materials Selection in Engineering Design",
-        "Composite Materials",
-        "Mechanical Behavior of Materials",
-        "Microprocessing",
-        "Macroprocessing",
-        "Reliability of Materials",
-        "Nanomaterials",
-        "Introduction to Electronmicroscopy"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "ManTech International Corporation Master of Science in Systems Engineering Scholarship",
-      "date": "2014-09-30",
-      "awarder": "ManTech International Corporation",
-      "summary": "The ManTech International Corporation awards its Master of Science in Systems Engineering (MSSE) Scholarship to two MSSE students per year at the University of Maryland, College Park. It is a merit-based scholarship."
-    },
-    {
-      "title": "Charles D. Striffler Internship Award",
-      "date": "2013-07-31",
-      "awarder": "University of Maryland, College Park Scholars Program (Science, Technology, and Society)",
-      "summary": "The Charles D. Striffler Internship Award is a competitive scholarship available to undergraduates in the Science, Technology, and Society (STS) program within the College Park Scholars Program at the University of Maryland, College Park. Students are required to write an essay that explores how their internship combines the intellectual challenges of the College Park Scholars STS program with usefulness to community, discipline or profession.\n\nFor more information, see http://sts.umd.edu/events/index.php?mode=4&id=6165"
-    },
-    {
-      "title": "Membership in Alpha Sigma Mu",
-      "date": "2013-04-30",
-      "awarder": "Alpha Sigma Mu",
-      "summary": "Alpha Sigma Mu is the international and professional honor society for the field of materials science and engineering. Membership is by invitation to the top 25% of junior, senior, and graduate students.\n\nFor more information, see http://www.alphasigmamu.org/"
-    },
-    {
-      "title": "President's Scholarship",
-      "date": "2010-08-31",
-      "awarder": "University of Maryland, College Park",
-      "summary": "The President's Scholarship provides four-year awards to exceptional entering freshmen from Maryland and across the nation. The President's Scholarship program is the University's largest. Recipients are identified through evaluation of the admission application materials. Academic achievement, extracurricular activities, awards, honors, and an essay are the criteria reviewed."
+      "endDate": "2014-12-31"
     }
   ],
   "publications": [
@@ -152,49 +109,90 @@
   ],
   "skills": [
     {
+      "name": "ASP.NET Core",
+      "description" : "Mosaic is powered by ASP.NET Core"
+    },
+    {
+      "name": "C# + VB",
+      "description" : "Mosaic is powered by C#"
+    },
+    {
+      "name": "HTML5",
+      "description" : "Mosaic is powered by HMTL5"
+    },
+    {
+      "name": "CSS + SASS",
+      "description" : "Mosaic is powered by CSS + SASS"
+    },
+    {
+      "name": "JavaScript + TypeScript",
+      "description" : "Mosaic is powered by JS and TS"
+    },    
+    {
+      "name": "React + Redux",
+      "description" : "Mosaic is powered by React + Redux"
+    },    
+    {
+      "name": "GraphQL",
+      "description" : "Mosaic is powered by GraphQL"
+    },
+    {
+      "name": "SQL + PL/SQL",
+      "description" : "Mosaic is powered by SQL"
+    },
+    {
+      "name": "VBA",
+      "description" : "I make beautiful, interactive Excel tools with VBA"
+    }
+  ],
+  "expertise": [
+    {
+      "name": "Software engineering",
+      "description" : "I am a self-taught software engineer, but it has become one of my personal passions."
+    },
+    {
       "name": "Product design",
-      "level": "",
-      "keywords": []
+      "description" : "To me, product design is the confluence of software engineering and user experience."
     },
     {
       "name": "Solution architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Software development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web + mobile apps",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "UI + UX",
-      "level": "",
-      "keywords": []
-    },    
-    {
-      "name": "Technical writing",
-      "level": "",
-      "keywords": []
-    },    
-    {
-      "name": "Public speaking",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Project management",
-      "level": "",
-      "keywords": []
+      "description" : "I recently designed a progressive web app using ASP.NET Core and React that connects manufacturing and warehouse workers with back office ERP systems. The need for a scalable and reliable modern platform drove me to leverage some of the latest frameworks and libraries."
     },
     {
       "name": "Technical leadership",
-      "level": "",
-      "keywords": []
+      "description" : "I love working with value-driven people, and I am always honored to guide team members toward a common goal."
+    },
+    {
+      "name": "Technical writing",
+      "description" : "I take pride in my writing, and I feel like it is more important that ever to communicate clearly and effectively with the people you work with. With teams spread all over the world, and new features being delivered faster each year, the ways in which we communicate are fundamental to our success."
+    },    
+    {
+      "name": "Progressive Web Apps",
+      "description" : "The internet has revolutionized our lives, and I believe that we have only seen the beginning. I want to continue to push the boundaries of what website and browsers do."
+    },    
+    {
+      "name": "UI + UX",
+      "description" : "I love graphic design, and so it's only natural that I'm drawn to UI design as well. Beyond the aesthetics of a well-designed UI, the concepts at the heart of user experience resonate with me. I believe in creating beauty and sharing joy in all aspects of life. "
+    },
+    {
+      "name": "Mobile applications",
+      "description" : "My background is largely centered around creating mobile applications for manufacturing and supply chain users. At the same time, I probably use 20 different apps on my phone every day, and I feel that people will only continue to move more towards mobile platforms as time goes on (whether that includes AR glasses or smart rings - we'll see!)."
+    },
+    {
+      "name": "Inventory management",
+      "description" : "I have created products for manufacturing and supply chain users to help manage their inventory by empowering them with simple, inuitive, and modern interfaces to complex (and sometimes dated) backend systems."
+    },
+    {
+      "name": "Barcoding",
+      "description" : "Much of my work with inventory management is linked with barcoding. I have written JavaScript libraries to print and scan barcode labels within a web app running on a mobile device with a barcode scanner."
+    },
+    {
+      "name": "Troubleshooting",
+      "description" : "Cliche as it may look in a list of areas of expertise, troubleshooting is still one of the absolute core skills for a software engineer to possess. I am proud of my ability to troubleshoot issues, including those that others give up on."
+    },
+    {
+      "name": "Remote collaboration",
+      "description" : "The majority of my career has been spent working remotely. While some aspects of it become second nature, others require daily practice to stay effective. I value frequent communication with my colleagues, and I also respect the time that everyone needs to be happy and healthy at home."
     }
   ],
   "languages": [

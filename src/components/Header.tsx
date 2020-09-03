@@ -26,16 +26,14 @@ const Header = () => {
           }}
         />
       </div>
-      <div style={{marginTop: `30px`, fontSize: `calc(10px + 1.5vmin)`, color: theme.foreground}}>My name is</div>
-      <h1 style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `0` }}>
+      <h1 style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `40px` }}>
         {resume.basics?.name}
       </h1>
-      <div style={{marginTop: `0px`, fontSize: `calc(10px + 1.5vmin)`, color: theme.foreground}}>I'm a</div>
       <h2 css={css`
               background-color: ${theme.background};
               color: ${theme.foreground};
               word-wrap: normal;
-            `} style={{ color: theme.foreground, marginBottom: `10px`, marginTop: `0` }}>
+            `} style={{ color: theme.foreground, marginBottom: `40px`, marginTop: `0` }}>
             {resume.basics?.label}
       </h2>
     </header>

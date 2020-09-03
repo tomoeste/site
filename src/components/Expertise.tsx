@@ -3,11 +3,11 @@ import { css, jsx } from '@emotion/core'
 import { useContext } from 'react';
 import ThemeContext from './ThemeContext';
 
-const Skill = (props: any) => {
+const Expertise = (props: any) => {
   const theme = useContext(ThemeContext);
   
  const isSelected = () => {
-   return props.selectedSkillDescription === props.skill.description;
+   return props.selectedExpertiseDescription === props.expertise?.description;
  }
 
   return (
@@ -29,14 +29,14 @@ const Skill = (props: any) => {
                   &:hover {
                     background-color: ${theme.backgroundAltActive};
                   }`}
-                  onClick={() => { props.setSelectedSkillDescription(props.skill.description); }}>
+                  onClick={() => { props.setSelectedExpertiseDescription(props.expertise?.description); }}>
       <span css={css`background-color: transparent; 
                      color: ${theme.foreground};
                      `}>
-      {props.skill.name}
+      {props.expertise?.name}
       </span>
     </button>
   );
 }
 
-export default Skill;
+export default Expertise;

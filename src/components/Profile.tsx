@@ -20,6 +20,7 @@ const Profile = (props: any) => {
           margin-left: 15px;
           margin-bottom: 20px;
           padding: 14px;
+          border: none;
           border-radius: 60px;
           align-content: center;
           align-items: center;

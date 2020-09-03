@@ -12,7 +12,7 @@ const Profiles = () => {
           display: `flex`,
           flexDirection: `row`,
           flexWrap: `wrap`,
-          margin: `20px 0 40px 0`,
+          margin: `20px 0 20px 0`,
           justifyContent: `center`,
         }}
       >

@@ -2,29 +2,29 @@
 import { css, jsx } from '@emotion/core'
 import { useContext, Fragment, useState } from "react";
 import { ResumeContext } from "./ResumeContext";
-import Skill from "./Skill";
+import Expertise from "./Expertise";
 import ThemeContext from './ThemeContext';
 
-const Skills = () => {
-  const getFirstSkillDescription = () => {
-    return resume.skills[0]?.description;
+const Expertises = () => {
+  const getFirstExpertiseDescription = () => {
+    return resume.expertise[0]?.description;
   }
 
   const resume = useContext(ResumeContext);
   const theme = useContext(ThemeContext);
-  const [selectedSkillDescription, setSelectedSkillDescription] = useState(getFirstSkillDescription());  
+  const [selectedExpertiseDescription, setSelectedExpertiseDescription] = useState(getFirstExpertiseDescription());  
 
   return (
     <Fragment>
       <label
         style={{
-          margin: `20px 0 20px 0`,
+          margin: `80px 0 20px 0`,
           fontSize: `24px`,
           fontWeight: 400,
           color: theme.foreground,
         }}
       >
-        Skills
+        Expertise
       </label>
       <ul
         style={{
@@ -35,8 +35,8 @@ const Skills = () => {
           justifyContent: `center`,
         }}
       >
-        {resume.skills.map((skill: any, index: number) => (
-          <Skill skill={skill} key={`skill${index}`} setSelectedSkillDescription={setSelectedSkillDescription} selectedSkillDescription={selectedSkillDescription} />
+        {resume.expertise.map((expertise: any, index: number) => (
+          <Expertise expertise={expertise} key={`expertise${index}`} setSelectedExpertiseDescription={setSelectedExpertiseDescription} selectedExpertiseDescription={selectedExpertiseDescription} />
         ))}
       </ul>
       <p css={css`background-color: ${theme.background}; 
@@ -47,10 +47,10 @@ const Skills = () => {
                   padding: 10px 30px;
                   text-align: center;
                   border-radius: 10px;`}>
-        {selectedSkillDescription}
+        {selectedExpertiseDescription}
       </p>
     </Fragment>
   );
 };
 
-export default Skills;
+export default Expertises;

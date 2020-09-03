@@ -10,24 +10,15 @@ const Bio = () => {
   
   return (
     <Fragment>
-      <h3
-        style={{
-          margin: `40px 0 0 0`,
-          fontSize: `18px`,
-          color: theme.foreground,
-        }}
-      >
-        Here is more about me
-      </h3>
       <p css={css`display: flex;
                   background-color: ${theme.background}; 
                   color: ${theme.foreground};
-                  font-weight: 400;
-                  font-size: 20px;                  
-                  line-height: 42px;
+                  font-weight: 200;
+                  font-size: calc(14px + 1vmin);                  
+                  line-height: calc(24px + 2vmin);
                   flex-direction: row;
                   flex-wrap: wrap;
-                  margin: 0 0 60px 0;                  
+                  margin: 0 0 40px 0;                  
                   padding: 10px 30px;
                   text-align: left;
                   border-radius: 10px;`}>

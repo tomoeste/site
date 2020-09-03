@@ -23,19 +23,24 @@
 }
 
 h1 {
-  font-size: calc(14px + 3vmin);
+  font-size: calc(24px + 3vmin);
   font-weight: 400;
 }
 
 h2 {
-  font-size: calc(14px + 2.5vmin);
-  font-weight: 400;
+  font-size: calc(12px + 3vmin);
+  font-weight: 200;
 }
 
 .App-body {
   max-width: 800px;
+  padding-bottom: 120px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+::selection {
+  background-color: lightgray;
 }
