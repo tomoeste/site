@@ -6,7 +6,7 @@
     "email": "tomoeste@gmail.com",
     "phone": "410-718-5664",
     "url": "/logo.svg",
-    "summary": "I design and deliver quality products. As an agile learner, I thrive with new challenges and diverse teams. My products are used by household name brands and within state and federal government. Strong communication skills are vital to me, as I work remotely with teams distributed around the world. Above all, I value kindness and understanding between people, at work and home.",
+    "summary": "I design and deliver quality products. As an agile learner, I thrive with new challenges and diverse teams. My products are used by household name brands and within the state and federal government. Strong communication skills are vital to me, as I work remotely with teams distributed around the world. Above all, I value kindness and understanding between people, at work and home.",
     "location": {
       "address": "",
       "postalCode": "21784",
@@ -110,57 +110,57 @@
   "skills": [
     {
       "name": "ASP.NET Core",
-      "description" : "Mosaic is powered by ASP.NET Core"
+      "description" : "I work with ASP.NET Core to power the server-side of Mosaic, a next-generation Progressive Web App (PWA) for inventory and supply chain management. ASP.NET Core provides a robust flexibility that I feel is currently unmatched."
     },
     {
       "name": "C# + VB",
-      "description" : "Mosaic is powered by C#"
+      "description" : "I have developed software in C# and Visual Basic for over eight years. My latest .NET projects are all written in C#, but I also support legacy applications in Visual Basic, including the .NET Compact Framework for Windows Mobile."
     },
     {
       "name": "HTML5",
-      "description" : "Mosaic is powered by HMTL5"
+      "description" : "HTML5 is the backbone of all modern web apps. I strive to utilize the most of HTML5 in my work, primarily through semantic markup and media tags."
     },
     {
       "name": "CSS + SASS",
-      "description" : "Mosaic is powered by CSS + SASS"
+      "description" : "Styling is fundamental to all UI and UX concepts, so I leverage CSS3 and SASS to effectively style my web pages and React components."
     },
     {
       "name": "JavaScript + TypeScript",
-      "description" : "Mosaic is powered by JS and TS"
+      "description" : "All of the client-side interactivity for my web apps is written in either JavaScript or TypeScript. I opt for TypeScript whenever possible, and leverage its types to improve code maintainability and scalability."
     },    
     {
       "name": "React + Redux",
-      "description" : "Mosaic is powered by React + Redux"
+      "description" : "I'm a React champion in my work, from the first time that I saw the magic of a modular, reactive user interface with a few lines of code. I try to use appropriate libraries to compliment React in each project, which sometimes means Redux and sometimes means React context hooks."
     },    
     {
       "name": "GraphQL",
-      "description" : "Mosaic is powered by GraphQL"
+      "description" : "GraphQL is another one of those tools that felt like magic the first time I saw it. I use GraphQL to create a unified data access layer between a simple, intuitive mobile UI and some of the most complex ERP systems around."
     },
     {
       "name": "SQL + PL/SQL",
-      "description" : "Mosaic is powered by SQL"
+      "description" : "I write SQL queries to connect my web apps to backend databases. I also write views and stored procedures to act as integration points with Oracle database and E-Business Suite."
     },
     {
       "name": "VBA",
-      "description" : "I make beautiful, interactive Excel tools with VBA"
+      "description" : "My secret shame is that I like making beautiful, interactive Excel tools with VBA. Maybe just because people don't expect to enjoy using Excel, it always sparks joy to see someone smile at a spreadsheet."
     }
   ],
   "expertise": [
     {
       "name": "Software engineering",
-      "description" : "I am a self-taught software engineer, but it has become one of my personal passions."
+      "description" : "I am a self-taught software engineer, but software design and development has become one of my personal passions. It's what I spend most of my time doing, but I can honestly say it rarely feels like work. I think about testing from the start, because if you don't write testable code...what are you going to do?"
     },
     {
       "name": "Product design",
-      "description" : "To me, product design is the confluence of software engineering and user experience."
+      "description" : "To me, product design is an intersection of software engineering and user experience. I get joy out of using well-designed products, and I get even greater joy out of creating well-designed products. In the end, products are about the people who use them, and no great product has been designed without that in mind."
     },
     {
       "name": "Solution architecture",
-      "description" : "I recently designed a progressive web app using ASP.NET Core and React that connects manufacturing and warehouse workers with back office ERP systems. The need for a scalable and reliable modern platform drove me to leverage some of the latest frameworks and libraries."
+      "description" : "I recently designed a progressive web app using ASP.NET Core and React that connects manufacturing and warehouse workers with back office ERP systems. The need for a scalable and reliable modern platform drove me to leverage some of the latest frameworks and libraries. Web apps enjoy a wonderful cross-platform capability, including that ability to responsively adapt to any screen size."
     },
     {
       "name": "Technical leadership",
-      "description" : "I love working with value-driven people, and I am always honored to guide team members toward a common goal."
+      "description" : "I love working with value-driven people, and I am always honored to guide team members toward a common goal. I take pride in being a compassionate listener. I think listening is the fisrt step in accompishing anything with other people. I love to see things from different points of view."
     },
     {
       "name": "Technical writing",
@@ -168,7 +168,7 @@
     },    
     {
       "name": "Progressive Web Apps",
-      "description" : "The internet has revolutionized our lives, and I believe that we have only seen the beginning. I want to continue to push the boundaries of what website and browsers do."
+      "description" : "The internet has revolutionized our lives, and I believe that we have only seen the beginning. I want to continue to push the boundaries of what websites and browsers do. PWAs are an exciting new way for people to experience web sites...or are they apps now?"
     },    
     {
       "name": "UI + UX",
@@ -180,15 +180,15 @@
     },
     {
       "name": "Inventory management",
-      "description" : "I have created products for manufacturing and supply chain users to help manage their inventory by empowering them with simple, inuitive, and modern interfaces to complex (and sometimes dated) backend systems."
+      "description" : "I have created products for manufacturing and supply chain users to help manage their inventory by empowering them with simple, inuitive, and modern interfaces to complex (and sometimes dated) backend systems. Apps work to enhance business processes - they don't fix broken ones. I work with my clients to understand their business needs and processes to optimize how people use tools to get their jobs done."
     },
     {
       "name": "Barcoding",
-      "description" : "Much of my work with inventory management is linked with barcoding. I have written JavaScript libraries to print and scan barcode labels within a web app running on a mobile device with a barcode scanner."
+      "description" : "Much of my work with inventory management is linked with barcoding. I have written JavaScript libraries to print and scan barcode labels within a web app running on a mobile device with a barcode scanner. I also consult with clients about barcode label design. Here's a free tip: RFID isn't a magic bullet - in fact, it's usually not the best option."
     },
     {
       "name": "Troubleshooting",
-      "description" : "Cliche as it may look in a list of areas of expertise, troubleshooting is still one of the absolute core skills for a software engineer to possess. I am proud of my ability to troubleshoot issues, including those that others give up on."
+      "description" : "Cliché as it may sound as an area of expertise, troubleshooting is still one of the absolute core skills for a software engineer to possess. I am proud of my ability to troubleshoot issues, including those that others give up on. To be a better troubleshooter, I practice every day to improve my patience, my listening ability, and my open-mindedness."
     },
     {
       "name": "Remote collaboration",

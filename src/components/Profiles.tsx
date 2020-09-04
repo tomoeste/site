@@ -6,7 +6,6 @@ const Profiles = () => {
   const resume = useContext(ResumeContext);
 
   return (
-    <Fragment>
       <div
         style={{
           display: `flex`,
@@ -20,7 +19,6 @@ const Profiles = () => {
           <Profile profile={profile} key={`profile${index}`} />
         ))}
       </div>
-    </Fragment>
   );
 };
 

@@ -28,7 +28,7 @@ const Footer = (props: any) => {
     <span>I made this site with<a href="https://create-react-app.dev/" target="_blank" rel="noopener noreferrer"
     css={css`text-decoration: none; color: ${theme.foreground}; margin-left: 4px; font-weight: 600;`}>
       Create React App
-    </a>. I made the logo with a charming tool called
+    </a>. I made the logo with a lovely tool called
     <a href="https://bigheads.io/" target="_blank" rel="noopener noreferrer"
     css={css`text-decoration: none; color: ${theme.foreground}; margin-left: 4px; font-weight: 600;`}>
       Big Heads

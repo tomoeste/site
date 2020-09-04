@@ -9,7 +9,6 @@ const Bio = () => {
   const theme = useContext(ThemeContext);
   
   return (
-    <Fragment>
       <p css={css`display: flex;
                   background-color: ${theme.background}; 
                   color: ${theme.foreground};
@@ -24,8 +23,6 @@ const Bio = () => {
                   border-radius: 10px;`}>
        {resume.basics.summary}
     </p>
-    </Fragment>
-    
   );
 }
 

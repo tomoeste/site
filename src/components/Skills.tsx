@@ -15,10 +15,11 @@ const Skills = () => {
   const [selectedSkillDescription, setSelectedSkillDescription] = useState(getFirstSkillDescription());  
 
   return (
-    <Fragment>
+    <div style={{
+      padding: `40px 0 0 0`
+    }}>
       <label
         style={{
-          margin: `20px 0 20px 0`,
           fontSize: `24px`,
           fontWeight: 400,
           color: theme.foreground,
@@ -49,7 +50,7 @@ const Skills = () => {
                   border-radius: 10px;`}>
         {selectedSkillDescription}
       </p>
-    </Fragment>
+    </div>
   );
 };
 
