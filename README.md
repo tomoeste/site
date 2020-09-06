@@ -1,4 +1,6 @@
-# Tom Oeste's site
+# Tom Oeste's site [![Build Status](https://travis-ci.org/tomoeste/site.svg?branch=master)](https://travis-ci.org/tomoeste/site) [![Dependencies](https://david-dm.org/tomoeste/site.png)](https://david-dm.org/tomoeste/site) [![Heroku](https://heroku-badge.herokuapp.com/?app=tomoeste-website&style=flat)](https://heroku-badge.herokuapp.com/projects.html)
+
+<img alt="Logo" align="right" src="https://www.tomoeste.info/logo.svg" width="20%" />
 
 This is my personal website. It serves as an interactive resume and portfolio. 
 
