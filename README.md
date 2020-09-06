@@ -4,7 +4,7 @@ This is my personal website. It serves as an interactive resume and portfolio.
 
 ## License
 
-This is an open-source project under the [MIT license](LICENSE.TXT).
+This is an open-source project under the [MIT license](LICENSE.txt).
 
 ## Learn more
 
